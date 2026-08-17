@@ -33,3 +33,7 @@ chmod 440 /etc/sudoers.d/90-qcom
 # ── Services ──────────────────────────────────────────────────────────────────
 systemctl enable sshd.service        || true
 systemctl enable NetworkManager.service || true
+
+# ── GNOME desktop ─────────────────────────────────────────────────────────────
+systemctl set-default graphical.target
+systemctl enable gdm.service          || true

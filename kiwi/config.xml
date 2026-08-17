@@ -113,6 +113,17 @@
     <package name="libcamera-tools"/>
     <package name="libcamera-v4l2"/>
     <package name="epel-release"/>
+
+    <!-- GNOME desktop -->
+    <package name="gdm"/>
+    <package name="gnome-control-center"/>
+    <package name="gnome-session"/>
+    <package name="gnome-shell"/>
+    <package name="mutter"/>
+    <package name="nautilus"/>
+    <package name="ptyxis"/>
+    <package name="weston"/>
+    <package name="xdg-desktop-portal-gnome"/>
   </packages>
 
 </image>
